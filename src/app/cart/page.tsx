@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function CartPage() {
   const cartItems = [
@@ -27,7 +28,7 @@ export default function CartPage() {
       <div className="space-y-6">
         {cartItems.map((item) => (
           <div key={item.id} className="flex gap-4 items-center border-b pb-4">
-            <img src={item.image} alt={item.name} className="w-20 h-20 object-cover rounded" />
+            <Image src={item.image} alt={item.name} className="w-20 h-20 object-cover rounded" />
             <div className="flex-1">
               <h3 className="text-lg font-semibold">{item.name}</h3>
               <p className="text-yellow-600 font-bold">${item.price.toFixed(2)}</p>

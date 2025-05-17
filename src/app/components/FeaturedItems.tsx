@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const featured = [
   {
@@ -31,7 +32,7 @@ export default function FeaturedItems() {
             key={item.id}
             className="border rounded-lg overflow-hidden shadow hover:shadow-lg transition cursor-pointer"
           >
-            <img
+            <Image
               src={item.image}
               alt={item.name}
               className="w-full h-40 object-cover"

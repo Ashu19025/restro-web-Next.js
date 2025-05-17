@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { useCart } from "../context/CartContext";
@@ -13,7 +13,7 @@ export default function Header() {
    <header className="bg-gray-900 p-4 rounded-full ">
     <div className="flex items-center justify-between">
      <div className="flex items-center gap-2">
-      <img
+      <Image
         className="w-12 h-12 object-cover rounded-full"
         src="https://i.pinimg.com/736x/01/48/66/0148662247327a7d268ce7d02b8662cf.jpg"
         alt="Logo"
