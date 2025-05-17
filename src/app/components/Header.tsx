@@ -18,7 +18,7 @@ export default function Header() {
         src="https://i.pinimg.com/736x/01/48/66/0148662247327a7d268ce7d02b8662cf.jpg"
         alt="Logo"
       />
-      <span className="text-white font-bold text-xl">SS PIZZA</span>
+      <span className="text-white font-bold text-xl">Online Order</span>
     </div>
       <nav className="flex items-center gap-8 text-white font-semibold ">
         <Link href="/">Home</Link>

@@ -9,28 +9,28 @@ const menuItems = [
     name: "Classic Cheeseburger",
     category: "Burgers",
     price: 8.99,
-    image: "/images/cheeseburger.jpg",
+    image: "https://i.pinimg.com/736x/4a/9e/b5/4a9eb54e61026b01b186d5dd869a19df.jpg",
   },
   {
     id: 2,
     name: "Pepperoni Pizza",
     category: "Pizzas",
     price: 12.5,
-    image: "/images/pepperoni-pizza.jpg",
+    image: "https://i.pinimg.com/736x/9f/07/ca/9f07ca45829cd07b6fee2c9506822496.jpg",
   },
   {
     id: 3,
     name: "Fresh Lemonade",
     category: "Drinks",
     price: 3.99,
-    image: "/images/lemonade.jpg",
+    image: "https://i.pinimg.com/736x/5b/01/87/5b01871234d5116fe260e03a9e0b5192.jpg",
   },
   {
     id: 4,
     name: "French Fries",
     category: "Sides",
     price: 4.5,
-    image: "/images/fries.jpg",
+    image: "https://i.pinimg.com/736x/6e/7b/5e/6e7b5e91357a7ce785a75d3449c1ded5.jpg",
   },
 ];
 
