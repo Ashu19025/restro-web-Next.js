@@ -1,8 +1,5 @@
 "use client"
-import Head from "next/head";
-import { useCart } from "../context/CartContext";
 import React from "react";
-import CartPage from "../cart/page";
 const menuItems = [
   {
     id: 1,
