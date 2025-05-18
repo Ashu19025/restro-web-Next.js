@@ -14,8 +14,10 @@ export default function Header() {
     <div className="flex items-center justify-between">
      <div className="flex items-center gap-2">
       <Image
-        className="w-12 h-12 object-cover rounded-full"
-        src="https://i.pinimg.com/736x/01/48/66/0148662247327a7d268ce7d02b8662cf.jpg"
+        className="object-cover rounded-full"
+        src="/logo.jpg"
+        width={40}
+        height={40}
         alt="Logo"
       />
       <span className="text-white font-bold text-xl">Online Order</span>

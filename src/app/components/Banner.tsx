@@ -9,9 +9,11 @@ export default function Banner() {
         <p className="text-lg">Get 20% off on all orders above $25. Use code: YUMMY20</p>
       </div>
       <Image
-        src="https://i.pinimg.com/736x/11/c4/1b/11c41bee8a8ade2a3513ad8f02d0aee2.jpg"
+        src="/Burger.jpg"
+        width={300}
+        height={300}
         alt="Promo Burger"
-        className="w-40  rounded-lg object-contain"
+        className="  rounded-lg object-contain"
       />
     </section>
   );
