@@ -14,14 +14,13 @@
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
-      {
-        "name": "next"
-      }
+      { "name": "next" }
     ],
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next.config.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next.config.js", "src/app/cart/page.jsx", "src/app/checkout/page.jsx", "src/app/components/Banner.jsx", "src/app/components/FeaturedItems.jsx", "src/app/components/FoodCategory.jsx", "src/app/components/Header.jsx", "src/app/context/CartContext.jsx", "src/app/login/page.jsx", "src/app/menu/page.jsx", "src/app/layout.jsx", "src/app/page.jsx"],
   "exclude": ["node_modules"]
 }

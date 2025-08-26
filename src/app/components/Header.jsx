@@ -5,10 +5,8 @@ import Link from "next/link";
 import { useCart } from "../context/CartContext";
 
 export default function Header() {
-      const { cartItems } = useCart();
-
-  // Calculate total quantity in cart
-  const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
+const { cart = [] } = useCart() || {};
+const totalItems = cart.reduce((sum, item) => sum + (item.quantity || 0), 0);
   return (
    <header className="bg-gray-900 p-4 rounded-full ">
     <div className="flex items-center justify-between">
